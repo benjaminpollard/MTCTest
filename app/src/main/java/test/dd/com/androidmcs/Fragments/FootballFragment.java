@@ -66,8 +66,8 @@ public class FootballFragment extends Fragment implements ISearchReciver, IFootb
 
         recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
 
-        LastSearchResultsListModel lastResults = controller.GetLastResults();
-        SetUpAdaptor(lastResults.players, lastResults.teams);
+//        LastSearchResultsListModel lastResults = controller.GetLastResults();
+//        SetUpAdaptor(lastResults.players, lastResults.teams);
 
         return view;
     }
@@ -170,6 +170,6 @@ public class FootballFragment extends Fragment implements ISearchReciver, IFootb
     @Override
     public void onStop() {
         super.onStop();
-        controller.SaveLastResults(adaptor.GetPlayerList(), adaptor.GetTeamList());
+        //controller.SaveLastResults(adaptor.GetPlayerList(), adaptor.GetTeamList());
     }
 }
