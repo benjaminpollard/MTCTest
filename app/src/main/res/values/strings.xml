@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidMTC</string>
+    <string name="title_home">Home</string>
+    <string name="title_favourite">Favourite</string>
+    <string name="search">SEARCH</string>
+    <string name="more">More</string>
+    <string name="header_player_text">Player</string>
+    <string name="header_team_text">Team</string>
+    <string name="fail_to_add">failed to add</string>
+    <string name="add_to_fav">Added to favorites</string>
+    <string name="request_failed_string">Request failed</string>
+    <string name="search_hint"><![CDATA[Team & players search text]]></string>
+</resources>
